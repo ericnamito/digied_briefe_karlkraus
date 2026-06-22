@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Brief an Karl Kraus, 8. September 1894</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Beispielkodierung im Rahmen der Lehrveranstaltung „Editionen Bauen I", Sitzung 12.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository>Wiener Stadt- und Landesbibliothek</repository>
+            <idno>H.J.N. 238.879</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>Einfaches cremefarbenes/beiges Papier ohne Verzierung oder Wasserzeichen.</support>
+                <extent>1 Bogen (Bifolium), beidseitig beschrieben; Rückseite leer.</extent>
+                <foliation>Rote Seitenzahl „5" am oberen linken Rand der ersten Seite.</foliation>
+                <condition>Deutliche waagrechte und senkrechte Falzlinien (Brief mehrfach gefaltet); am oberen Rand der zweiten Seite bräunliche Klebstoffrückstände sowie auf der Rückseite Klebstoff-/Klebebandreste von früherer archivarischer Montage.</condition>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote xml:id="hand_mary" scribe="mary" medium="black-ink">Schwarze Tinte; kräftige und zügige Handschrift mit vielen Schwüngen; überwiegend lateinische Schreibschrift mit nur wenigen Kurrent-Elementen. Mehrere Durchstreichungen im Text zeugen von spontaner, unbearbeiteter Niederschrift.</handNote>
+            </handDesc>
+            <additions>
+              <p>Archivvermerke: Archivnummer „H.J.N. 238.879" und rote Seitenzahl „5" am oberen Rand der ersten Seite; violetter Rundstempel der „WIENER STADT- U. LANDESBIBL[IOTHEK]" am unteren Rand der ersten Seite und auf der zweiten Seite sichtbar.</p>
+            </additions>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="kraus">
+            <persName>Karl Kraus</persName>
+          </person>
+          <person xml:id="mary">
+            <persName>Mary Schiger</persName>
+            <note>Verfasserin; Familienname im Original schwer lesbar.</note>
+          </person>
+          <person xml:id="nh">
+            <persName>N. H.</persName>
+            <note>Im Brief nur mit Initialen genannt; nicht aufgelöst.</note>
+          </person>
+        </listPerson>
+      </particDesc>
+      <settingDesc>
+        <listPlace>
+          <place xml:id="wien">
+            <placeName>Wien</placeName>
+          </place>
+        </listPlace>
+      </settingDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#mary">Mary <choice>
+            <unclear>Scheyer</unclear>
+            <unclear>Schäfer</unclear>
+            <unclear>Schyer</unclear>
+          </choice></persName>
+          <placeName ref="#wien">Wien</placeName>
+          <date when="1894-09-08">8. September 1894</date>
+          <address>
+            <street>Alserstraße 8</street>
+            <name type="door">Tür 6</name>
+            <settlement>Wien</settlement>
+            <country key="AT">Österreich-Ungarn</country>
+          </address>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#kraus">Karl Kraus</persName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <opener>
+        <dateline>
+          <placeName ref="#wien">Wien</placeName> d. <date when="1894-09-08">8.9.94.</date>
+        </dateline>
+        <salute type="initial">Lieber Herr <persName ref="#kraus">Kraus</persName>!</salute>
+      </opener>
+      <p>Auf Ihren Brief hätte ich antworten sollen das weiß ich, aber was? aus Höflichkeit dazu <choice>
+        <unclear>betreiben</unclear>
+        <unclear>behaupten</unclear>
+        <unclear>beheben</unclear>
+        </choice> wir beide ja keinen Briefwechsel, es müssen schon ernstere Motive hierzu vorliegen und die fehlen gänzlich bei mir, wenigstens der Stoff dazu. Motive wären auch noch vorhanden. – Den inhaltslosen absolut nichtssagenden Brief vom <persName ref="#nh">N. H.</persName> zu senden wär schade, um die 5 Kr. Marke. Da ich aber doch ein Bedürfnis, das einzige Motiv, <del><gap reason="illegible"/></del> von Ihnen etwas zu hören, fühle, so sende bei dieser Gelegenheit den „Wisch" Papier mit." Wie Sie sehen verweile ich immer noch in <placeName ref="#wien">Wien</placeName>, ein mir höchst unsympathischer und gänzlich unfruchtbarer Boden. <persName ref="#nh">N. H.</persName> habe ich noch <choice>
+        <sic>keinen</sic>
+        <corr>keine</corr>
+        </choice> Antwort auf seinen Brief gewürdigt. Briefschreiben nimmt bekanntlich <del>immer</del> viel Zeit in Anspruch und dem, dem man sie opfert, muss <choice>
+        <unclear>er</unclear>
+        <unclear>es</unclear>
+        <unclear>der</unclear>
+        </choice> werth sein. <del><gap reason="illegible"/></del> Geben Sie ein Lebenszeichen von sich und würdigen Sie mich einiger <choice>
+        <unclear>Theilen</unclear>
+        <unclear>Zeilen</unclear>
+        <unclear>Mittheilen</unclear>
+        </choice>.</p>
+      <closer>
+        <salute type="closing">Mit freundlichsten Gruß</salute>
+        <signed><persName ref="#mary">Mary <choice>
+          <unclear>Scheyer</unclear>
+          <unclear>Schäfer</unclear>
+          <unclear>Schyer</unclear>
+        </choice></persName></signed>
+        <address>
+          <addrLine><street>Alserstr. 8</street> T</addrLine>
+          <addrLine>Thür 6</addrLine>
+        </address>
+      </closer>
+    </body>
+  </text>
+</TEI>
