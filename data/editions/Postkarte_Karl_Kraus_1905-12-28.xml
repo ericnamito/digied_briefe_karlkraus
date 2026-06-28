@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Postkarte an Karl Kraus, 28. Dezember 1905</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Beispielkodierung im Rahmen der Lehrveranstaltung „Editionen Bauen I", Sitzung 12.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository>Wiener Stadt- und Landesbibliothek</repository>
+            <idno>H.I.N. 238.883</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc form="postcard">
+              <supportDesc>
+                <support>Bildpostkarte; Rückseite aus blass-grünem Karton im typischen Format „Carte Postale" mit französischem Vordruck. Vorderseite mit Schwarzweiß-Photographie (Verlag „LL." = Lévy Fils &amp; Cie., Paris; Bildnummer 944) der Promenade des Anglais in Nice.</support>
+                <extent>1 Karte, beidseitig beschrieben.</extent>
+              </supportDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote xml:id="hand_luttinger" scribe="luttinger">Überwiegend lateinische Schreibschrift mit einzelnen Kurrent-Anklängen.</handNote>
+            </handDesc>
+            <decoDesc>
+              <stamp>Großer violetter Rechteckstempel des „Palace Hotel" (ci-devant Milliet), Inhaber Th. Meyer, 2 Rue Alphonse Karr in Nice, mit Datum „28 DEC 05".</stamp>
+              <stamp>Runder violetter Bibliotheksstempel der „Wiener Stadt- u. Landesbibl." auf der Rückseite.</stamp>
+              <stamp>Französischer Poststempel „NICE / 28-12 05 / ALPES-MARITIMES" auf der Briefmarke (französische 10-Centimes-Briefmarke „Semeuse" in Rot).</stamp>
+            </decoDesc>
+            <additions>
+              <p>Archivvermerke: Archivnummer „H.I.N. 238.883" und Zahl „16" in Bleistift am oberen linken Rand der Rückseite.</p>
+            </additions>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="kraus">
+            <persName>Karl Kraus</persName>
+            <occupation>Herausgeber der „Fackel"</occupation>
+          </person>
+          <person xml:id="luttinger">
+            <persName>Grete Luttinger</persName>
+          </person>
+          <person xml:id="meyer">
+            <persName>Th. Meyer</persName>
+            <note>Inhaber des Palace Hotel in Nice (im Hotelstempel genannt).</note>
+          </person>
+        </listPerson>
+      </particDesc>
+      <settingDesc>
+        <listPlace>
+          <place xml:id="wien">
+            <placeName>Wien</placeName>
+          </place>
+          <place xml:id="nice">
+            <placeName>Nice</placeName>
+            <location><country key="FR">Frankreich</country></location>
+          </place>
+          <place xml:id="palace_hotel">
+            <placeName>Palace Hotel (ci-devant Milliet)</placeName>
+            <location>
+              <address>
+                <street>2, Rue Alphonse Karr</street>
+                <settlement>Nice</settlement>
+                <country key="FR">Frankreich</country>
+              </address>
+            </location>
+          </place>
+        </listPlace>
+      </settingDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#luttinger">Grete Luttinger</persName>
+          <placeName ref="#nice">Nice</placeName>
+          <date when="1905-12-28">28. Dezember 1905</date>
+          <address>
+            <orgName>Palace Hotel</orgName>
+            <street>2, Rue Alphonse Karr</street>
+            <settlement>Nice</settlement>
+            <country key="FR">Frankreich</country>
+          </address>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#kraus">Karl Kraus</persName>
+          <placeName ref="#wien">Wien</placeName>
+          <address>
+            <street>Schwindgasse 3</street>
+            <district>IV.</district>
+            <settlement>Wien</settlement>
+            <country key="AT">Österreich-Ungarn</country>
+          </address>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+      <surface xml:id="surf-IMG_DEFAULT_5412565">
+         <desc>[Seite 1]</desc>
+         <graphic url="https://www.digital.wienbibliothek.at/i3f/v20/5412565/full/full/0/default.jpg"/>
+      </surface>
+      <surface xml:id="surf-IMG_DEFAULT_5412566">
+         <desc>[Seite 2]</desc>
+         <graphic url="https://www.digital.wienbibliothek.at/i3f/v20/5412566/full/full/0/default.jpg"/>
+      </surface>
+   </facsimile>
+  <text>
+    <body>
+      <pb facs="#surf-IMG_DEFAULT_5412565" n="1"/>
+      <pb facs="#surf-IMG_DEFAULT_5412566" n="2"/>
+      <div type="picture-side">
+        <head>Vorderseite</head>
+        <figure>
+          <figDesc>Schwarzweiß-Photographie der Promenade des Anglais in <placeName ref="#nice">Nice</placeName>, mit Palmen, Strandpromenade, Pferdedroschke, Spaziergängern und der Jetée-Promenade im Hintergrund. Gedruckte Bildunterschrift unten: „944 NICE. Promenade des Anglais. — LL."</figDesc>
+        </figure>
+        <note place="top-right" type="greeting">
+          <choice>
+            <unclear>Schönen</unclear>
+            <unclear>Lieben</unclear>
+            <unclear>Tausend</unclear>
+          </choice> Gruß! Prosit Neujahr. <signed><persName ref="#luttinger">Luttinger</persName></signed>
+        </note>
+        <note place="bottom-right" type="return-address">
+          <address>
+            <addrLine>Adr: <placeName ref="#nice">Nice</placeName>,</addrLine>
+            <addrLine><orgName>Palace Hotel</orgName></addrLine>
+            <addrLine>Milliet</addrLine>
+          </address>
+        </note>
+        <note place="bottom-center" type="caption-overwrite">Handschriftliches Datum auf der gedruckten Bildunterschrift: <date when="1905-12-28">28/12</date> <choice>
+          <unclear>KL</unclear>
+          <unclear>AL</unclear>
+        </choice></note>
+      </div>
+      <div type="message">
+        <head>Rückseite</head>
+        <opener>
+          <salute type="initial">Prosit Neujahr und herzliche Grüße!</salute>
+        </opener>
+        <p>Wir sind bereits 4 Wochen hier, beabsichtigen bis Februar zu bleiben, vielleicht machen Sie einen kleinen Ausflug hieher, es würde uns sehr freuen,</p>
+        <closer>
+          <signed><persName ref="#luttinger">Grete Luttinger</persName></signed>
+        </closer>
+      </div>
+      <div type="address">
+        <head>Anschrift</head>
+        <address>
+          <addrLine><foreign xml:lang="fr">Mons.</foreign></addrLine>
+          <addrLine><persName ref="#kraus">Karl Kraus</persName></addrLine>
+          <addrLine>Herausgeber d. <title>Fackel</title></addrLine>
+          <addrLine><placeName ref="#wien">Wien</placeName></addrLine>
+          <addrLine><district>IV.</district> <street>Schwindgasse 3</street></addrLine>
+        </address>
+      </div>
+    </body>
+  </text>
+</TEI>

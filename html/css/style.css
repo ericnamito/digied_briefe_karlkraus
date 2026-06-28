@@ -13,3 +13,64 @@ div#map {
     text-decoration: underline dotted;
     cursor: pointer;
 }
+
+/* Brief-Struktur */
+.letter-opener {
+    font-style: italic;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    border-left: 3px solid #adb5bd;
+}
+.letter-closer {
+    font-style: italic;
+    margin-top: 1rem;
+    padding-left: 1rem;
+    border-left: 3px solid #adb5bd;
+}
+.letter-dateline, .letter-salute, .letter-signed {
+    margin: 0.2rem 0;
+}
+.letter-address {
+    font-style: normal;
+    margin: 0.2rem 0;
+}
+
+/* Editorische Phänomene */
+.gap {
+    color: #6c757d;
+    font-style: italic;
+    cursor: help;
+}
+.editorial-corr {
+    color: #0056b3;
+    text-decoration: underline dotted;
+    cursor: help;
+}
+.unclear-choice {
+    text-decoration: underline dotted;
+    cursor: help;
+    text-decoration-color: #fd7e14;
+}
+
+/* Navbar-Farbe (überschreibt Bootstrap bg-body-tertiary) */
+.navbar.bg-body-tertiary {
+    background-color: #2c3e50 !important;
+}
+.navbar.bg-body-tertiary .nav-link,
+.navbar.bg-body-tertiary .navbar-brand,
+.navbar.bg-body-tertiary .navbar-toggler-icon {
+    color: #ffffff !important;
+}
+.navbar.bg-body-tertiary .nav-link:hover {
+    color: #adb5bd !important;
+}
+
+/* Seitenhintergrund */
+body {
+    background-color: #fdf6e3;
+}
+
+/* Abstand zwischen Navbar und Seiteninhalt */
+main .container {
+    padding-top: 1.5rem;
+}

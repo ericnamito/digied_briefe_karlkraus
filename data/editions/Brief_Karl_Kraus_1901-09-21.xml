@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="de">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Brief an Karl Kraus, 21. September 1901</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Beispielkodierung im Rahmen der Lehrveranstaltung „Editionen Bauen I", Sitzung 12.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <repository>Wiener Stadtbibliothek (vermutlich; laut Stempel)</repository>
+            <idno>H.I.N. 238.946</idno>
+          </msIdentifier>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>Hellgrünes Papier mit zartem, geprägtem Jugendstil-Blumen- bzw. Ornamentmuster, das als feines wasserzeichenähnliches Muster über beide Seiten verläuft.</support>
+                <extent>1 Bogen, gefaltet; mehrere Seiten beschrieben (Seitenzahl „12" am oberen Rand).</extent>
+                <foliation>Seitenzahl „12" mit Bleistift am oberen Rand der ersten Seite.</foliation>
+                <condition>Senkrechte Falzlinie in der Mitte beider Blätter (passend zur scherzhaften Bemerkung der Schreiberin über „Platz im Koffer"). Dunkelgrüne Klebebandstreifen verdecken auf beiden Seiten Teile des Textes (vermutlich von früherer archivarischer Montage).</condition>
+              </supportDesc>
+              <layoutDesc>
+                <layout>Auf dem mittleren Bogen laufen die Zeilen durchgehend über beide Seiten.</layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote xml:id="hand_HT" scribe="HT" medium="violet-ink">Flüssige und zügige Handschrift in violetter Tinte; Mischung aus Kurrentschrift für den deutschen Text und lateinischer Schrift für fremdsprachige Wendungen („lettre d'amitie", „Imperial") sowie Eigennamen (Karl Kraus, Smetana, Mauthner, Ischl, Peter, Hedwig).</handNote>
+            </handDesc>
+            <additions>
+              <p>Archivvermerke: Archivnummer „H.I.N. 238.946" und Seitenzahl „12" mit Bleistift am oberen Rand der ersten Seite; schwacher runder Bibliotheksstempel (vermutlich „WIENER STADT-…", wahrscheinlich Wiener Stadtbibliothek) auf der rechten Seite zu erkennen.</p>
+            </additions>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <particDesc>
+        <listPerson>
+          <person xml:id="kraus">
+            <persName>Karl Kraus</persName>
+          </person>
+          <person xml:id="HT">
+            <persName>H.T.</persName>
+            <note>Verfasserin; nur mit Initialen unterzeichnet.</note>
+          </person>
+          <person xml:id="smetana">
+            <persName>Smetana</persName>
+          </person>
+          <person xml:id="hedwig_p">
+            <persName>Hedwig P.</persName>
+          </person>
+          <person xml:id="mauthner">
+            <persName>Mauthner</persName>
+          </person>
+          <person xml:id="peter">
+            <persName>Peter</persName>
+          </person>
+        </listPerson>
+      </particDesc>
+      <settingDesc>
+        <listPlace>
+          <place xml:id="wien">
+            <placeName>Wien</placeName>
+          </place>
+          <place xml:id="ischl">
+            <placeName>Ischl</placeName>
+          </place>
+          <place xml:id="cafe_imperial">
+            <placeName>Café Imperial</placeName>
+            <location><placeName ref="#wien">Wien</placeName></location>
+          </place>
+        </listPlace>
+      </settingDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="#HT">H.T.</persName>
+          <placeName ref="#wien">Wien</placeName>
+          <date when="1901-09-21">21. September 1901</date>
+          <address>
+            <street>Maria-Theresienstraße 10</street>
+            <district>I.</district>
+            <settlement>Wien</settlement>
+            <country key="AT">Österreich-Ungarn</country>
+          </address>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="#kraus">Karl Kraus</persName>
+        </correspAction>
+      </correspDesc>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+      <surface xml:id="surf-IMG_DEFAULT_5618137">
+         <desc>[Seite 1]</desc>
+         <graphic url="https://www.digital.wienbibliothek.at/i3f/v20/5618137/full/full/0/default.jpg"/>
+      </surface>
+      <surface xml:id="surf-IMG_DEFAULT_5618138">
+         <desc>[Seite 2]</desc>
+         <graphic url="https://www.digital.wienbibliothek.at/i3f/v20/5618138/full/full/0/default.jpg"/>
+      </surface>
+   </facsimile>
+  <text>
+    <body>
+      <pb facs="#surf-IMG_DEFAULT_5618137" n="1"/>
+      <pb facs="#surf-IMG_DEFAULT_5618138" n="2"/>
+      <opener>
+        <dateline>
+          <date when="1901-09-21">21.IX.01</date>
+        </dateline>
+        <salute type="initial">Lieber Herr <persName ref="#kraus">Karl Kraus</persName>!</salute>
+      </opener>
+      <p>Sie sehen an dieser Anrede, dass ich <persName ref="#smetana">Smetanas</persName> Schreib-Schreibart nachahme aber Sie sehen auch daran, dass ich Ihnen überhaupt schreibe dass ich nicht „kleinlich" bin, da Sie meine Karte gänzlich ignorirten. Sie wissen gar nicht, wie mich Ihre liebenswürdige <choice>
+        <unclear>Unbekenntwürdig</unclear>
+        <unclear>Unbekanntwürdig</unclear>
+        <unclear>Unliebenswürdig</unclear>
+        </choice>keit mich „kleinlich" zu nennen, erfreute, ersah ich doch daraus, dass Sie unsere Bekanntschaft, wenn sie auch kurz war, für so freundschaftlich hielten, mich un<choice>
+        <unclear>gestraft</unclear>
+        <unclear>gescheut</unclear>
+        <unclear>gestört</unclear>
+        </choice> küssen zu dürfen. Und nun, da Sie damit <choice>
+        <unclear>begonnen</unclear>
+        <unclear>bekonnen</unclear>
+        <unclear>gegönnt</unclear>
+        </choice> haben, werden Sie kein Ende finden. Ich <choice>
+        <unclear>merkte</unclear>
+        <unclear>meinte</unclear>
+        <unclear>mußte</unclear>
+        </choice> aber auch, da Sie gar nichts von sich hören ließen, dass das Schöne Wetter Sie veranlasst hat in <choice>
+        <unclear><placeName ref="#ischl">Ischl</placeName></unclear>
+        <unclear><placeName>Salzburg</placeName></unclear>
+        <unclear><placeName>Aussee</placeName></unclear>
+        </choice> zu bleiben, oder hält Sie K. v. <choice>
+        <unclear>Hafler</unclear>
+        <unclear>Kafler</unclear>
+        <unclear>Hofler</unclear>
+        </choice> dort drüben, - oder ist es am Ende des <choice>
+        <unclear>Tonkünst</unclear>
+        <unclear>Tonkussen</unclear>
+        <unclear>Schönkussen</unclear>
+        </choice><choice>
+        <unclear>lers</unclear>
+        <unclear>der</unclear>
+        <unclear>den</unclear>
+        </choice>, wie ich gestern erfuhr, Montag seine drei Kreuze Premiere hat. <choice>
+        <unclear>Ich</unclear>
+        <unclear>Joh.</unclear>
+        <unclear>Gott</unclear>
+        </choice> sah einmal ein Bild, auf dem Iuden an einem <choice>
+        <unclear>Tische</unclear>
+        <unclear>Wagen</unclear>
+        <unclear>Wege</unclear>
+        </choice> <choice>
+        <unclear>sich</unclear>
+        <unclear>nach der</unclear>
+        </choice> erläuternde <choice>
+        <unclear>Tafel</unclear>
+        <unclear>Schrift</unclear>
+        <unclear>Sache</unclear>
+        </choice> belehrte, ihre <choice>
+        <unclear>Sünden</unclear>
+        <unclear>Schulden</unclear>
+        <unclear>Stunden</unclear>
+        </choice> <choice>
+        <unclear>in vergangenen</unclear>
+        <unclear>in besonderen</unclear>
+        <unclear>in besseren</unclear>
+        </choice> Tage hinein waren. (Bequem.) Werden Sie vielleicht auch dieser <choice>
+        <unclear>Sache</unclear>
+        <unclear>Buche</unclear>
+        <unclear>Bahn</unclear>
+        </choice> noch näher <choice>
+        <unclear>kommen</unclear>
+        <unclear>treten</unclear>
+        </choice> über den Traum verbringen u. nicht im Verlobungs-Kiosk? Aber da erinnere ich mich, dass Sie mir in der letzten Stunde unseres Beisammenseins beichteten, dass Sie keine Sünde zu beichten hätten. Das muss von nun an anders werden u. Sie werden die Sünde gegen den guten Geschmack begehen u. das Puppenheim von Frl. <persName ref="#hedwig_p">Hedwig P.</persName> oft und bald - bald u. oft aufsuchen. Sie gehen einer so aufregenden u. aufzehrenden Zeit der Arbeit entgegen, dass ein Stiller Winkel, in dem Sie nichts <choice>
+        <unclear>aufregendes</unclear>
+        <unclear>aufzeigendes</unclear>
+        <unclear>aufhaltendes</unclear>
+        </choice> finden, Ihren Nerven nur gut thun kann. Sie wissen, Sie finden, wenn auch nicht immer gleich gesinnte, doch gleichgestimmte. Kommen Sie also - nicht, wie ein <choice>
+        <unclear>g'schmuckvoller</unclear>
+        <unclear>g'schwundvoller</unclear>
+        <unclear>g'sinnungsvoller</unclear>
+        </choice> Hausherr sagte, - zwischen Jause und Souper; nein, kommen Sie zur Jause u. anstatt eine Tasse Kaffee im <placeName ref="#cafe_imperial">Café Imperial</placeName> zu schlürfen, thun Sie das hier. Melden Sie sich aber pneumatisch, damit Sie meine vier Stockwerke nicht vergebens kraxeln. Indem ich dies schreibe, fällt mir Ihre Begegnung in einem Wiener Theater mit einem, in <placeName ref="#ischl">Ischl</placeName> kennen gelernten ein, der sich Ihnen in Erinnerung bringen wollte, was Ihnen aber nicht gelingen sollte. Steht es am Ende aller Ihrer in <placeName ref="#ischl">Ischl</placeName> gemachten Bekanntschaften so? Aber nein, Ihre <choice>
+        <unclear>Abschiedsblumen</unclear>
+        <unclear>Abschiedsbriefe</unclear>
+        <unclear>Abschiedsblüten</unclear>
+        </choice> sind noch nicht verblüht u. unsere Bekanntschaft sollte schon ihren Duft eingebüsst haben? Wenn Sie denselben (noch) haben, wie ich, so wird Sie <gap reason="adhesive-tape"/> in <placeName ref="#wien">Wien</placeName> voll erblühen. Sollten Sie die geborstenen Säulen des <persName ref="#mauthner">Mauthner</persName>'schen Stammes sehen, so sagen Sie keiner Säule von diesem <foreign xml:lang="fr">„lettre d'amitie."</foreign> Sie wissen ja: <persName ref="#kraus">Karl Kraus</persName> und Steine sagen: „Die Welt ist schlecht!" Vor Schluss des Blattes (noch ein wenig Platz im Koffer) schließt sich doch der „Möglichkeit meines Antrages." an u. hofft Ihnen bald Ihre Schätze (Herzensbilder Briefe von <persName ref="#peter">Peter</persName> u. etc. etc. bergen zu können. Dieser Brief verlangt keine Antwort, nur das Anerkennen Ihres persönlichen Selbst, es bittet zugleich um Entschuldigung, dass er Ihre kostbare Zeit mit dem Lesen in Anspruch genommen hat. Aber in <placeName ref="#ischl">Ischl</placeName> sind ja noch <choice>
+        <unclear>Serien</unclear>
+        <unclear>Ferien</unclear>
+        <unclear>Tage</unclear>
+        </choice></p>
+      <closer>
+        <salute type="closing">Herzlichst u. freundschaftlich</salute>
+        <signed>die Ihre</signed>
+        <dateline>
+          <address>
+            <addrLine><district>I.</district> <street>Maria-Theresienst. 10.</street></addrLine>
+            <addrLine><placeName ref="#wien">Wien</placeName>.</addrLine>
+          </address>
+          <date when="1901-09-21">21.9.01.</date>
+        </dateline>
+        <signed><persName ref="#HT">H.T.</persName></signed>
+      </closer>
+    </body>
+  </text>
+</TEI>
