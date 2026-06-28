@@ -12,7 +12,7 @@
         <msDesc>
           <msIdentifier>
             <repository>Wiener Stadt- und Landesbibliothek</repository>
-            <idno>H.J.N. 238.883</idno>
+            <idno>H.I.N. 238.883</idno>
           </msIdentifier>
           <physDesc>
             <objectDesc form="postcard">
@@ -30,7 +30,7 @@
               <stamp>Französischer Poststempel „NICE / 28-12 05 / ALPES-MARITIMES" auf der Briefmarke (französische 10-Centimes-Briefmarke „Semeuse" in Rot).</stamp>
             </decoDesc>
             <additions>
-              <p>Archivvermerke: Archivnummer „H.J.N 238.883" und Zahl „16" in Bleistift am oberen linken Rand der Rückseite.</p>
+              <p>Archivvermerke: Archivnummer „H.I.N. 238.883" und Zahl „16" in Bleistift am oberen linken Rand der Rückseite.</p>
             </additions>
           </physDesc>
         </msDesc>
@@ -98,6 +98,16 @@
       </correspDesc>
     </profileDesc>
   </teiHeader>
+  <facsimile>
+      <surface xml:id="surf-IMG_DEFAULT_5412565">
+         <desc>[Seite 1]</desc>
+         <graphic url="https://www.digital.wienbibliothek.at/i3f/v20/5412565/full/full/0/default.jpg"/>
+      </surface>
+      <surface xml:id="surf-IMG_DEFAULT_5412566">
+         <desc>[Seite 2]</desc>
+         <graphic url="https://www.digital.wienbibliothek.at/i3f/v20/5412566/full/full/0/default.jpg"/>
+      </surface>
+   </facsimile>
   <text>
     <body>
       <div type="picture-side">

@@ -92,8 +92,20 @@
       </correspDesc>
     </profileDesc>
   </teiHeader>
+  <facsimile>
+      <surface xml:id="surf-IMG_DEFAULT_5618137">
+         <desc>[Seite 1]</desc>
+         <graphic url="https://www.digital.wienbibliothek.at/i3f/v20/5618137/full/full/0/default.jpg"/>
+      </surface>
+      <surface xml:id="surf-IMG_DEFAULT_5618138">
+         <desc>[Seite 2]</desc>
+         <graphic url="https://www.digital.wienbibliothek.at/i3f/v20/5618138/full/full/0/default.jpg"/>
+      </surface>
+   </facsimile>
   <text>
     <body>
+      <pb facs="#surf-IMG_DEFAULT_5618137" n="1"/>
+      <pb facs="#surf-IMG_DEFAULT_5618138" n="2"/>
       <opener>
         <dateline>
           <date when="1901-09-21">21.IX.01</date>

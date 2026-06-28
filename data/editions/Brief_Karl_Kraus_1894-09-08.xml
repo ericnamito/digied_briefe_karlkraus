@@ -12,7 +12,7 @@
         <msDesc>
           <msIdentifier>
             <repository>Wiener Stadt- und Landesbibliothek</repository>
-            <idno>H.J.N. 238.879</idno>
+            <idno>H.I.N. 238.879</idno>
           </msIdentifier>
           <physDesc>
             <objectDesc>
@@ -27,7 +27,7 @@
               <handNote xml:id="hand_mary" scribe="mary" medium="black-ink">Schwarze Tinte; kräftige und zügige Handschrift mit vielen Schwüngen; überwiegend lateinische Schreibschrift mit nur wenigen Kurrent-Elementen. Mehrere Durchstreichungen im Text zeugen von spontaner, unbearbeiteter Niederschrift.</handNote>
             </handDesc>
             <additions>
-              <p>Archivvermerke: Archivnummer „H.J.N. 238.879" und rote Seitenzahl „5" am oberen Rand der ersten Seite; violetter Rundstempel der „WIENER STADT- U. LANDESBIBL[IOTHEK]" am unteren Rand der ersten Seite und auf der zweiten Seite sichtbar.</p>
+              <p>Archivvermerke: Archivnummer „H.I.N. 238.879" und rote Seitenzahl „5" am oberen Rand der ersten Seite; violetter Rundstempel der „WIENER STADT- U. LANDESBIBL[IOTHEK]" am unteren Rand der ersten Seite und auf der zweiten Seite sichtbar.</p>
             </additions>
           </physDesc>
         </msDesc>
@@ -78,8 +78,25 @@
       </correspDesc>
     </profileDesc>
   </teiHeader>
+  <facsimile>
+      <surface xml:id="surf-IMG_DEFAULT_5385824">
+         <desc>[Seite 1]</desc>
+         <graphic url="https://www.digital.wienbibliothek.at/i3f/v20/5385824/full/full/0/default.jpg"/>
+      </surface>
+      <surface xml:id="surf-IMG_DEFAULT_5385825">
+         <desc>[Seite 2]</desc>
+         <graphic url="https://www.digital.wienbibliothek.at/i3f/v20/5385825/full/full/0/default.jpg"/>
+      </surface>
+      <surface xml:id="surf-IMG_DEFAULT_5385826">
+         <desc>[Seite 3]</desc>
+         <graphic url="https://www.digital.wienbibliothek.at/i3f/v20/5385826/full/full/0/default.jpg"/>
+      </surface>
+   </facsimile>
   <text>
     <body>
+      <pb facs="#surf-IMG_DEFAULT_5385824" n="1"/>
+      <pb facs="#surf-IMG_DEFAULT_5385825" n="2"/>
+      <pb facs="#surf-IMG_DEFAULT_5385826" n="3"/>
       <opener>
         <dateline>
           <placeName ref="#wien">Wien</placeName> d. <date when="1894-09-08">8.9.94.</date>
