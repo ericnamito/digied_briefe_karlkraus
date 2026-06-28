@@ -48,7 +48,7 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li class="nav-item">
+                            <!-- <li class="nav-item">
                                 <a title="API" class="nav-link" href="api.xml">API</a>
                             </li>
                             <li class="nav-item">
@@ -56,7 +56,7 @@
                             </li>
                             <li class="nav-item">
                                 <a title="Suche" class="nav-link" href="noske-search.html">Noske-Suche</a>
-                            </li>
+                            </li> -->
                         </ul>
                     </div>
                 </div>

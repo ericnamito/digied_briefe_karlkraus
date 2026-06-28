@@ -16,14 +16,23 @@
     <text>
         <body>
            <p>
-               Scholarly Digital Editions sind eine revolutionäre Art, historische Texte und Dokumente in einem modernen und zugänglichen Format zu präsentieren. 
-               Diese Editionen verwenden digitale Technologien, um eine angereicherte und interaktive Version des Originaltexts darzustellen, die es Lesern ermöglicht, 
-               das Material auf neue Weise zu erkunden und zu nutzen. Sie bieten Wissenschaftlern ein mächtiges Werkzeug für Forschung und Analyse sowie eine Plattform, 
-               um ihre Arbeit einem breiteren Publikum zugänglich zu machen. Darüber hinaus können digitale Editionen eine genauere und zuverlässigere Version eines 
-               Textes bieten, indem sie fortschrittliche Techniken wie Bildverbesserung, Transkription und Textanalyse einsetzen. 
-               Da sich das Feld der digitalen Geisteswissenschaften weiterentwickelt, wird die Entwicklung von Scholarly Digital Editions immer wichtiger und wird 
-               voraussichtlich die Art und Weise revolutionieren, wie wir historische Texte und Dokumente studieren und verstehen.
-           </p>
+               Diese digitale Edition wurde von Eric Otiman im Rahmen der
+                Lehrveranstaltung „Aus dem Archiv ins Frontend. Digitale Editionen"
+                an der Universität Wien (SoSe 2026) als Prüfungsleistung erstellt.
+            </p>
+            <p>
+               Die Edition umfasst drei handschriftliche Dokumente aus dem Bestand der
+               Wienbibliothek im Rathaus: zwei Briefe und eine Postkarte, die an Karl Kraus
+               adressiert wurden und aus den Jahren 1894, 1901 und 1905 stammen.
+               Die Dokumente wurden transkribiert, nach den Richtlinien der Text Encoding
+               Initiative (TEI) kodiert und mit Metadaten erschlossen.
+            </p>
+            <p>
+               Der Quellcode der Edition ist unter
+               <ref target="https://github.com/ericnamito/digied_briefe_karlkraus">
+               https://github.com/ericnamito/digied_briefe_karlkraus</ref>
+               verfügbar.
+            </p>
         </body>
     </text>
   </TEI>

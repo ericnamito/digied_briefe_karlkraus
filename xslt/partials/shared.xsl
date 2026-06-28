@@ -15,6 +15,47 @@
         <span class="anchor-pb"></span>
         <span class="pb" source="{@facs}"><xsl:value-of select="./@n"/></span>
     </xsl:template>
+    <xsl:template match="tei:opener">
+        <div class="letter-opener"><xsl:apply-templates/></div>
+    </xsl:template>
+    <xsl:template match="tei:closer">
+        <div class="letter-closer"><xsl:apply-templates/></div>
+    </xsl:template>
+    <xsl:template match="tei:dateline">
+        <p class="letter-dateline"><xsl:apply-templates/></p>
+    </xsl:template>
+    <xsl:template match="tei:salute">
+        <p class="letter-salute"><xsl:apply-templates/></p>
+    </xsl:template>
+    <xsl:template match="tei:signed">
+        <p class="letter-signed"><xsl:apply-templates/></p>
+    </xsl:template>
+    <xsl:template match="tei:body//tei:address">
+        <address class="letter-address"><xsl:apply-templates/></address>
+    </xsl:template>
+    <xsl:template match="tei:addrLine">
+        <span class="letter-addrline"><xsl:apply-templates/><br/></span>
+    </xsl:template>
+    <xsl:template match="tei:gap">
+        <span class="gap" title="Lücke: {@reason}">[…]</span>
+    </xsl:template>
+    <xsl:template match="tei:choice[tei:corr]">
+        <xsl:variable name="sic" select="normalize-space(string-join(tei:sic//text(), ''))"/>
+        <span class="editorial-corr" title="sic: {$sic}">
+            <xsl:value-of select="normalize-space(string-join(tei:corr//text(), ''))"/>
+        </span>
+    </xsl:template>
+    <xsl:template match="tei:choice[tei:unclear]">
+        <xsl:variable name="alts">
+            <xsl:value-of select="string-join(
+                for $u in tei:unclear[preceding-sibling::tei:unclear]
+                return normalize-space(string-join($u//text(), '')),
+                ' / ')"/>
+        </xsl:variable>
+        <abbr class="unclear-choice" title="Lesealternativen: {$alts}">
+            <xsl:value-of select="normalize-space(string-join(tei:unclear[1]//text(), ''))"/>
+        </abbr>
+    </xsl:template>
     <xsl:template match="tei:unclear">
         <abbr title="unclear"><xsl:apply-templates/></abbr>
     </xsl:template>
