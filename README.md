@@ -1,5 +1,6 @@
 # Karl Kraus Briefe
 
+Digitale Edition von drei handschriftlichen Dokumenten aus dem Bestand der Wienbibliothek im Rathaus, die an Karl Kraus adressiert wurden (1894, 1901, 1905). Erstellt von **Eric Otiman** als Prüfungsleistung im Rahmen der Lehrveranstaltung „Aus dem Archiv ins Frontend. Digitale Editionen" an der Universität Wien (Sommersemester 2026).
 
 * build with [DSE-Static-Cookiecutter](https://github.com/acdh-oeaw/dse-static-cookiecutter)
 
